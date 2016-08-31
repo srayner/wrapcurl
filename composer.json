@@ -10,6 +10,11 @@
         "http request"
     ],
     "homepage": "https://github.com/srayner/wrapcurl",
+    "autoload": {
+        "psr-4": {
+          "WrapCurl\\":"src/WrapCurl/"
+        }
+    },
     "require": {
         "php": ">=5.3.3"
     },
