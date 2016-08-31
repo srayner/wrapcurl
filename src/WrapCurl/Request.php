@@ -16,7 +16,7 @@ class Request
     public function exec()
     {
         $output = curl_exec($this->ch);
-        curl_close;
+        curl_close($this->ch);
         return $output;
     }
 }
