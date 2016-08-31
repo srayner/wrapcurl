@@ -1,0 +1,19 @@
+{
+    "name": "srayner/wrapcurl",
+    "description": "Light wrapper around the curl library",
+    "license": "MIT",
+    "keywords": [
+        "curl",
+        "curl wrapper",
+        "request",
+        "response",
+        "http request"
+    ],
+    "homepage": "https://github.com/srayner/wrapcurl",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.27"
+    }
+}
